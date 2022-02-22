@@ -125,6 +125,7 @@ vec_r3 vec_r3::operator=(const vec_r3& vec) //asignacion
 }
 bool vec_r3::operator==(const vec_r3& vec)    //comparacion
 {
+    cout<<"Compara "<<vec<<" con <"<<this->x<<","<<this->y<<","<<this->z<<">"<<endl;
     if (this->x==vec.x && this->y==vec.y && this->z==vec.z)    //se evalua si las coordenadas son iguales
     {
         cout<<"Los vectores son iguales"<<endl;
